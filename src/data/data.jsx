@@ -1,3 +1,12 @@
+import amyrobsonPng from '../assets/images/avatars/image-amyrobson.png'
+import amyrobsonWebp from '../assets/images/avatars/image-amyrobson.webp'
+import maxblagunPng from '../assets/images/avatars/image-maxblagun.png'
+import maxblagunWebp from '../assets/images/avatars/image-maxblagun.webp'
+import ramsesmironPng from '../assets/images/avatars/image-ramsesmiron.png'
+import ramsesmironWebp from '../assets/images/avatars/image-ramsesmiron.webp'
+import juliusomoPng from '../assets/images/avatars/image-juliusomo.png'
+import juliusomoWebp from '../assets/images/avatars/image-juliusomo.webp'
+
 export const initialComments = [
   {
     id: 1,
@@ -7,8 +16,8 @@ export const initialComments = [
     score: 12,
     user: {
       image: {
-        png: "../src/assets/images/avatars/image-amyrobson.png",
-        webp: "../src/assets/images/avatars/image-amyrobson.webp",
+        png: amyrobsonPng,
+        webp: amyrobsonWebp,
       },
       username: "amyrobson",
     },
@@ -22,8 +31,8 @@ export const initialComments = [
     score: 5,
     user: {
       image: {
-        png: "../src/assets/images/avatars/image-maxblagun.png",
-        webp: "../src/assets/images/avatars/image-maxblagun.webp",
+        png: maxblagunPng,
+        webp: maxblagunWebp,
       },
       username: "maxblagun",
     },
@@ -37,8 +46,8 @@ export const initialComments = [
         replyingTo: "maxblagun",
         user: {
           image: {
-            png: "../src/assets/images/avatars/image-ramsesmiron.png",
-            webp: "../src/assets/images/avatars/image-ramsesmiron.webp",
+            png: ramsesmironPng,
+            webp: ramsesmironWebp,
           },
           username: "ramsesmiron",
         },
@@ -52,35 +61,20 @@ export const initialComments = [
         replyingTo: "ramsesmiron",
         user: {
           image: {
-            png: "../src/assets/images/avatars/image-juliusomo.png",
-            webp: "../src/assets/images/avatars/image-juliusomo.webp",
+            png: juliusomoPng,
+            webp: juliusomoWebp,
           },
           username: "juliusomo",
         },
       },
     ],
   },
-  {
-    id: 4,
-    content:
-      "Lorem so i faced a difficulty in this project you can see that when you click on someones reply button it auto dropdown its input and in that input there is his or her @username",
-    createdAt: "2024-05-28 08:08:08",
-    score: 2,
-    user: {
-      image: {
-        png: "../src/assets/images/avatars/image-juliusomo.png",
-        webp: "../src/assets/images/avatars/image-juliusomo.webp",
-      },
-      username: "juliusomo",
-    },
-    replies: [],
-  },
 ];
 
 export const initUser = {
   image: {
-    png: "../src/assets/images/avatars/image-juliusomo.png",
-    webp: "../src/assets/images/avatars/image-juliusomo.png",
+    png: juliusomoPng,
+    webp: juliusomoWebp,
   },
   username: "juliusomo",
 };
