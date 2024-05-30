@@ -98,6 +98,7 @@
 .user-comment-user-comment {
     color: var(--neutral-grayish-blue);
     grid-area: userComment;
+    line-height: 1.350;
 }
 
 .user-comment-score-wrapper {
